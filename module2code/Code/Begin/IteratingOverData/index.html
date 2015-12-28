@@ -3,7 +3,15 @@
 <head>
     <title>Iterating Over Data</title>
 </head>
-<body ng-init="names=['Dave','Jeff','Heedy','Danny']">
+<body ng-init="names=['Dave','Jeff','Heedy','Danny']" ng-cloak>
+
+    <h3>Iterating through data with ng-repeat</h3>
+       
+       <ul>
+           <li ng-repeat="name in names"> {{name}} </li>
+           
+       </ul>
+        
 
 
 
